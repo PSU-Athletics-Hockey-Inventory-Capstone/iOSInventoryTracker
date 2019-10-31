@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE05B646236B5D1E0097F7DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B645236B5D1E0097F7DA /* AppDelegate.swift */; };
+		BE05B648236B5D1E0097F7DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B647236B5D1E0097F7DA /* SceneDelegate.swift */; };
+		BE05B64A236B5D1E0097F7DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B649236B5D1E0097F7DA /* ContentView.swift */; };
+		BE05B64C236B5D200097F7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE05B64B236B5D200097F7DA /* Assets.xcassets */; };
+		BE05B64F236B5D200097F7DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE05B64E236B5D200097F7DA /* Preview Assets.xcassets */; };
+		BE05B652236B5D200097F7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE05B650236B5D200097F7DA /* LaunchScreen.storyboard */; };
+		BE05B65D236B5D200097F7DA /* iOSInventoryTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B65C236B5D200097F7DA /* iOSInventoryTrackerTests.swift */; };
+		BE05B668236B5D200097F7DA /* iOSInventoryTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B667236B5D200097F7DA /* iOSInventoryTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE05B659236B5D200097F7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE05B63A236B5D1E0097F7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE05B641236B5D1E0097F7DA;
+			remoteInfo = iOSInventoryTracker;
+		};
+		BE05B664236B5D200097F7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE05B63A236B5D1E0097F7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE05B641236B5D1E0097F7DA;
+			remoteInfo = iOSInventoryTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE05B642236B5D1E0097F7DA /* iOSInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE05B645236B5D1E0097F7DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE05B647236B5D1E0097F7DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE05B649236B5D1E0097F7DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE05B64B236B5D200097F7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE05B64E236B5D200097F7DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE05B651236B5D200097F7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE05B653236B5D200097F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE05B658236B5D200097F7DA /* iOSInventoryTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSInventoryTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE05B65C236B5D200097F7DA /* iOSInventoryTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSInventoryTrackerTests.swift; sourceTree = "<group>"; };
+		BE05B65E236B5D200097F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE05B663236B5D200097F7DA /* iOSInventoryTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSInventoryTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE05B667236B5D200097F7DA /* iOSInventoryTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSInventoryTrackerUITests.swift; sourceTree = "<group>"; };
+		BE05B669236B5D200097F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE05B63F236B5D1E0097F7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B655236B5D200097F7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B660236B5D200097F7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE05B639236B5D1E0097F7DA = {
+			isa = PBXGroup;
+			children = (
+				BE05B644236B5D1E0097F7DA /* iOSInventoryTracker */,
+				BE05B65B236B5D200097F7DA /* iOSInventoryTrackerTests */,
+				BE05B666236B5D200097F7DA /* iOSInventoryTrackerUITests */,
+				BE05B643236B5D1E0097F7DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE05B643236B5D1E0097F7DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B642236B5D1E0097F7DA /* iOSInventoryTracker.app */,
+				BE05B658236B5D200097F7DA /* iOSInventoryTrackerTests.xctest */,
+				BE05B663236B5D200097F7DA /* iOSInventoryTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE05B644236B5D1E0097F7DA /* iOSInventoryTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B645236B5D1E0097F7DA /* AppDelegate.swift */,
+				BE05B647236B5D1E0097F7DA /* SceneDelegate.swift */,
+				BE05B649236B5D1E0097F7DA /* ContentView.swift */,
+				BE05B64B236B5D200097F7DA /* Assets.xcassets */,
+				BE05B650236B5D200097F7DA /* LaunchScreen.storyboard */,
+				BE05B653236B5D200097F7DA /* Info.plist */,
+				BE05B64D236B5D200097F7DA /* Preview Content */,
+			);
+			path = iOSInventoryTracker;
+			sourceTree = "<group>";
+		};
+		BE05B64D236B5D200097F7DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B64E236B5D200097F7DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE05B65B236B5D200097F7DA /* iOSInventoryTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B65C236B5D200097F7DA /* iOSInventoryTrackerTests.swift */,
+				BE05B65E236B5D200097F7DA /* Info.plist */,
+			);
+			path = iOSInventoryTrackerTests;
+			sourceTree = "<group>";
+		};
+		BE05B666236B5D200097F7DA /* iOSInventoryTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B667236B5D200097F7DA /* iOSInventoryTrackerUITests.swift */,
+				BE05B669236B5D200097F7DA /* Info.plist */,
+			);
+			path = iOSInventoryTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE05B641236B5D1E0097F7DA /* iOSInventoryTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE05B66C236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTracker" */;
+			buildPhases = (
+				BE05B63E236B5D1E0097F7DA /* Sources */,
+				BE05B63F236B5D1E0097F7DA /* Frameworks */,
+				BE05B640236B5D1E0097F7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSInventoryTracker;
+			productName = iOSInventoryTracker;
+			productReference = BE05B642236B5D1E0097F7DA /* iOSInventoryTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE05B657236B5D200097F7DA /* iOSInventoryTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE05B66F236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTrackerTests" */;
+			buildPhases = (
+				BE05B654236B5D200097F7DA /* Sources */,
+				BE05B655236B5D200097F7DA /* Frameworks */,
+				BE05B656236B5D200097F7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE05B65A236B5D200097F7DA /* PBXTargetDependency */,
+			);
+			name = iOSInventoryTrackerTests;
+			productName = iOSInventoryTrackerTests;
+			productReference = BE05B658236B5D200097F7DA /* iOSInventoryTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE05B662236B5D200097F7DA /* iOSInventoryTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE05B672236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTrackerUITests" */;
+			buildPhases = (
+				BE05B65F236B5D200097F7DA /* Sources */,
+				BE05B660236B5D200097F7DA /* Frameworks */,
+				BE05B661236B5D200097F7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE05B665236B5D200097F7DA /* PBXTargetDependency */,
+			);
+			name = iOSInventoryTrackerUITests;
+			productName = iOSInventoryTrackerUITests;
+			productReference = BE05B663236B5D200097F7DA /* iOSInventoryTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE05B63A236B5D1E0097F7DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "PSU Athletics Hockey";
+				TargetAttributes = {
+					BE05B641236B5D1E0097F7DA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					BE05B657236B5D200097F7DA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BE05B641236B5D1E0097F7DA;
+					};
+					BE05B662236B5D200097F7DA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BE05B641236B5D1E0097F7DA;
+					};
+				};
+			};
+			buildConfigurationList = BE05B63D236B5D1E0097F7DA /* Build configuration list for PBXProject "iOSInventoryTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE05B639236B5D1E0097F7DA;
+			productRefGroup = BE05B643236B5D1E0097F7DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE05B641236B5D1E0097F7DA /* iOSInventoryTracker */,
+				BE05B657236B5D200097F7DA /* iOSInventoryTrackerTests */,
+				BE05B662236B5D200097F7DA /* iOSInventoryTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE05B640236B5D1E0097F7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05B652236B5D200097F7DA /* LaunchScreen.storyboard in Resources */,
+				BE05B64F236B5D200097F7DA /* Preview Assets.xcassets in Resources */,
+				BE05B64C236B5D200097F7DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B656236B5D200097F7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B661236B5D200097F7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE05B63E236B5D1E0097F7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05B646236B5D1E0097F7DA /* AppDelegate.swift in Sources */,
+				BE05B648236B5D1E0097F7DA /* SceneDelegate.swift in Sources */,
+				BE05B64A236B5D1E0097F7DA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B654236B5D200097F7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05B65D236B5D200097F7DA /* iOSInventoryTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05B65F236B5D200097F7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05B668236B5D200097F7DA /* iOSInventoryTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE05B65A236B5D200097F7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE05B641236B5D1E0097F7DA /* iOSInventoryTracker */;
+			targetProxy = BE05B659236B5D200097F7DA /* PBXContainerItemProxy */;
+		};
+		BE05B665236B5D200097F7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE05B641236B5D1E0097F7DA /* iOSInventoryTracker */;
+			targetProxy = BE05B664236B5D200097F7DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE05B650236B5D200097F7DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE05B651236B5D200097F7DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE05B66A236B5D200097F7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE05B66B236B5D200097F7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE05B66D236B5D200097F7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSInventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSInventoryTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE05B66E236B5D200097F7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSInventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSInventoryTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE05B670236B5D200097F7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				INFOPLIST_FILE = iOSInventoryTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSInventoryTracker.app/iOSInventoryTracker";
+			};
+			name = Debug;
+		};
+		BE05B671236B5D200097F7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				INFOPLIST_FILE = iOSInventoryTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSInventoryTracker.app/iOSInventoryTracker";
+			};
+			name = Release;
+		};
+		BE05B673236B5D200097F7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				INFOPLIST_FILE = iOSInventoryTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSInventoryTracker;
+			};
+			name = Debug;
+		};
+		BE05B674236B5D200097F7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79H6HH5T3G;
+				INFOPLIST_FILE = iOSInventoryTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.athletics.hockey.iOSInventoryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSInventoryTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE05B63D236B5D1E0097F7DA /* Build configuration list for PBXProject "iOSInventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE05B66A236B5D200097F7DA /* Debug */,
+				BE05B66B236B5D200097F7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE05B66C236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE05B66D236B5D200097F7DA /* Debug */,
+				BE05B66E236B5D200097F7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE05B66F236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE05B670236B5D200097F7DA /* Debug */,
+				BE05B671236B5D200097F7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE05B672236B5D200097F7DA /* Build configuration list for PBXNativeTarget "iOSInventoryTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE05B673236B5D200097F7DA /* Debug */,
+				BE05B674236B5D200097F7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE05B63A236B5D1E0097F7DA /* Project object */;
+}
