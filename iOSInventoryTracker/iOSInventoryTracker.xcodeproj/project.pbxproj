@@ -15,6 +15,13 @@
 		BE05B652236B5D200097F7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE05B650236B5D200097F7DA /* LaunchScreen.storyboard */; };
 		BE05B65D236B5D200097F7DA /* iOSInventoryTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B65C236B5D200097F7DA /* iOSInventoryTrackerTests.swift */; };
 		BE05B668236B5D200097F7DA /* iOSInventoryTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B667236B5D200097F7DA /* iOSInventoryTrackerUITests.swift */; };
+		BE05B678236B60B70097F7DA /* InventoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B677236B60B70097F7DA /* InventoryData.swift */; };
+		BE05B67A236B61180097F7DA /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B679236B61180097F7DA /* Athlete.swift */; };
+		BE05B67C236B62C90097F7DA /* HockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67B236B62C90097F7DA /* HockeyStick.swift */; };
+		BE05B67E236B62E40097F7DA /* ProBankHockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */; };
+		BE05B680236B62F20097F7DA /* TrueCustomHockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */; };
+		BE05B682236B642D0097F7DA /* DataLoaderFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B681236B642D0097F7DA /* DataLoaderFake.swift */; };
+		BE05B684236B64380097F7DA /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B683236B64380097F7DA /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		BE05B663236B5D200097F7DA /* iOSInventoryTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSInventoryTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE05B667236B5D200097F7DA /* iOSInventoryTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSInventoryTrackerUITests.swift; sourceTree = "<group>"; };
 		BE05B669236B5D200097F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE05B677236B60B70097F7DA /* InventoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryData.swift; sourceTree = "<group>"; };
+		BE05B679236B61180097F7DA /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		BE05B67B236B62C90097F7DA /* HockeyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyStick.swift; sourceTree = "<group>"; };
+		BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProBankHockeyStick.swift; sourceTree = "<group>"; };
+		BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueCustomHockeyStick.swift; sourceTree = "<group>"; };
+		BE05B681236B642D0097F7DA /* DataLoaderFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderFake.swift; sourceTree = "<group>"; };
+		BE05B683236B64380097F7DA /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +113,14 @@
 		BE05B644236B5D1E0097F7DA /* iOSInventoryTracker */ = {
 			isa = PBXGroup;
 			children = (
-				BE05B645236B5D1E0097F7DA /* AppDelegate.swift */,
-				BE05B647236B5D1E0097F7DA /* SceneDelegate.swift */,
+				BE05B676236B5E060097F7DA /* Models */,
+				BE05B675236B5E000097F7DA /* Views */,
 				BE05B649236B5D1E0097F7DA /* ContentView.swift */,
-				BE05B64B236B5D200097F7DA /* Assets.xcassets */,
+				BE05B647236B5D1E0097F7DA /* SceneDelegate.swift */,
+				BE05B645236B5D1E0097F7DA /* AppDelegate.swift */,
 				BE05B650236B5D200097F7DA /* LaunchScreen.storyboard */,
 				BE05B653236B5D200097F7DA /* Info.plist */,
+				BE05B64B236B5D200097F7DA /* Assets.xcassets */,
 				BE05B64D236B5D200097F7DA /* Preview Content */,
 			);
 			path = iOSInventoryTracker;
@@ -134,6 +150,27 @@
 				BE05B669236B5D200097F7DA /* Info.plist */,
 			);
 			path = iOSInventoryTrackerUITests;
+			sourceTree = "<group>";
+		};
+		BE05B675236B5E000097F7DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE05B676236B5E060097F7DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B677236B60B70097F7DA /* InventoryData.swift */,
+				BE05B679236B61180097F7DA /* Athlete.swift */,
+				BE05B67B236B62C90097F7DA /* HockeyStick.swift */,
+				BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */,
+				BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */,
+				BE05B681236B642D0097F7DA /* DataLoaderFake.swift */,
+				BE05B683236B64380097F7DA /* DataLoader.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE05B684236B64380097F7DA /* DataLoader.swift in Sources */,
+				BE05B67A236B61180097F7DA /* Athlete.swift in Sources */,
+				BE05B682236B642D0097F7DA /* DataLoaderFake.swift in Sources */,
+				BE05B67C236B62C90097F7DA /* HockeyStick.swift in Sources */,
+				BE05B680236B62F20097F7DA /* TrueCustomHockeyStick.swift in Sources */,
 				BE05B646236B5D1E0097F7DA /* AppDelegate.swift in Sources */,
 				BE05B648236B5D1E0097F7DA /* SceneDelegate.swift in Sources */,
+				BE05B67E236B62E40097F7DA /* ProBankHockeyStick.swift in Sources */,
+				BE05B678236B60B70097F7DA /* InventoryData.swift in Sources */,
 				BE05B64A236B5D1E0097F7DA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var inventoryData: InventoryData
+    
     var body: some View {
         Text("Hello World")
     }
@@ -16,6 +18,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(InventoryData())
     }
 }
