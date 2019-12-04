@@ -10,4 +10,6 @@ import Combine
 
 final class InventoryData: ObservableObject {
     @Published var athletes: [Athlete] = athleteData
+    @Published var hockeySticks: [HockeyStick] = hockeyStickData
+    @Published var backlog: [InventoryItem] = inventoryBacklog
 }

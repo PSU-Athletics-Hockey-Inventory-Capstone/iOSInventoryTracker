@@ -22,6 +22,16 @@
 		BE05B680236B62F20097F7DA /* TrueCustomHockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */; };
 		BE05B682236B642D0097F7DA /* DataLoaderFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B681236B642D0097F7DA /* DataLoaderFake.swift */; };
 		BE05B684236B64380097F7DA /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B683236B64380097F7DA /* DataLoader.swift */; };
+		BE05B686237232CB0097F7DA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B685237232CB0097F7DA /* InventoryItem.swift */; };
+		BE05B68A237249550097F7DA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B685237232CB0097F7DA /* InventoryItem.swift */; };
+		BE05B68B23724A080097F7DA /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B679236B61180097F7DA /* Athlete.swift */; };
+		BE1985A923972D0D00440562 /* AthleteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1985A823972D0D00440562 /* AthleteDetail.swift */; };
+		BE1985AE23973B8500440562 /* TrueCustomHockeyStickRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1985AD23973B8500440562 /* TrueCustomHockeyStickRow.swift */; };
+		BED06DE8237CCCA600FECBA5 /* AthleteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED06DE7237CCCA600FECBA5 /* AthleteRow.swift */; };
+		BED06DE9237CCD4400FECBA5 /* HockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67B236B62C90097F7DA /* HockeyStick.swift */; };
+		BED06DEA237CCD4600FECBA5 /* ProBankHockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */; };
+		BED06DEB237CCD4900FECBA5 /* TrueCustomHockeyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */; };
+		BED06DF0237CD82E00FECBA5 /* AthleteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED06DEF237CD82E00FECBA5 /* AthleteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,11 @@
 		BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueCustomHockeyStick.swift; sourceTree = "<group>"; };
 		BE05B681236B642D0097F7DA /* DataLoaderFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderFake.swift; sourceTree = "<group>"; };
 		BE05B683236B64380097F7DA /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		BE05B685237232CB0097F7DA /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		BE1985A823972D0D00440562 /* AthleteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteDetail.swift; sourceTree = "<group>"; };
+		BE1985AD23973B8500440562 /* TrueCustomHockeyStickRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueCustomHockeyStickRow.swift; sourceTree = "<group>"; };
+		BED06DE7237CCCA600FECBA5 /* AthleteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteRow.swift; sourceTree = "<group>"; };
+		BED06DEF237CD82E00FECBA5 /* AthleteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +170,8 @@
 		BE05B675236B5E000097F7DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE1985AF23973B9100440562 /* HockeyStick */,
+				BED06DE6237CCC9100FECBA5 /* Athlete */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,15 +179,50 @@
 		BE05B676236B5E060097F7DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BE05B677236B60B70097F7DA /* InventoryData.swift */,
+				BE05B687237247480097F7DA /* InventoryItems */,
 				BE05B679236B61180097F7DA /* Athlete.swift */,
-				BE05B67B236B62C90097F7DA /* HockeyStick.swift */,
-				BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */,
-				BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */,
+				BE05B677236B60B70097F7DA /* InventoryData.swift */,
 				BE05B681236B642D0097F7DA /* DataLoaderFake.swift */,
 				BE05B683236B64380097F7DA /* DataLoader.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BE05B687237247480097F7DA /* InventoryItems */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B685237232CB0097F7DA /* InventoryItem.swift */,
+				BEBE6FF323724B7400EDE407 /* Hockey Sticks */,
+			);
+			path = InventoryItems;
+			sourceTree = "<group>";
+		};
+		BE1985AF23973B9100440562 /* HockeyStick */ = {
+			isa = PBXGroup;
+			children = (
+				BE1985AD23973B8500440562 /* TrueCustomHockeyStickRow.swift */,
+			);
+			path = HockeyStick;
+			sourceTree = "<group>";
+		};
+		BEBE6FF323724B7400EDE407 /* Hockey Sticks */ = {
+			isa = PBXGroup;
+			children = (
+				BE05B67B236B62C90097F7DA /* HockeyStick.swift */,
+				BE05B67D236B62E40097F7DA /* ProBankHockeyStick.swift */,
+				BE05B67F236B62F20097F7DA /* TrueCustomHockeyStick.swift */,
+			);
+			path = "Hockey Sticks";
+			sourceTree = "<group>";
+		};
+		BED06DE6237CCC9100FECBA5 /* Athlete */ = {
+			isa = PBXGroup;
+			children = (
+				BED06DE7237CCCA600FECBA5 /* AthleteRow.swift */,
+				BED06DEF237CD82E00FECBA5 /* AthleteList.swift */,
+				BE1985A823972D0D00440562 /* AthleteDetail.swift */,
+			);
+			path = Athlete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,11 +358,16 @@
 			files = (
 				BE05B684236B64380097F7DA /* DataLoader.swift in Sources */,
 				BE05B67A236B61180097F7DA /* Athlete.swift in Sources */,
+				BE1985A923972D0D00440562 /* AthleteDetail.swift in Sources */,
 				BE05B682236B642D0097F7DA /* DataLoaderFake.swift in Sources */,
 				BE05B67C236B62C90097F7DA /* HockeyStick.swift in Sources */,
 				BE05B680236B62F20097F7DA /* TrueCustomHockeyStick.swift in Sources */,
 				BE05B646236B5D1E0097F7DA /* AppDelegate.swift in Sources */,
+				BED06DE8237CCCA600FECBA5 /* AthleteRow.swift in Sources */,
+				BE1985AE23973B8500440562 /* TrueCustomHockeyStickRow.swift in Sources */,
 				BE05B648236B5D1E0097F7DA /* SceneDelegate.swift in Sources */,
+				BE05B686237232CB0097F7DA /* InventoryItem.swift in Sources */,
+				BED06DF0237CD82E00FECBA5 /* AthleteList.swift in Sources */,
 				BE05B67E236B62E40097F7DA /* ProBankHockeyStick.swift in Sources */,
 				BE05B678236B60B70097F7DA /* InventoryData.swift in Sources */,
 				BE05B64A236B5D1E0097F7DA /* ContentView.swift in Sources */,
@@ -321,7 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED06DEA237CCD4600FECBA5 /* ProBankHockeyStick.swift in Sources */,
 				BE05B65D236B5D200097F7DA /* iOSInventoryTrackerTests.swift in Sources */,
+				BED06DE9237CCD4400FECBA5 /* HockeyStick.swift in Sources */,
+				BE05B68B23724A080097F7DA /* Athlete.swift in Sources */,
+				BED06DEB237CCD4900FECBA5 /* TrueCustomHockeyStick.swift in Sources */,
+				BE05B68A237249550097F7DA /* InventoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

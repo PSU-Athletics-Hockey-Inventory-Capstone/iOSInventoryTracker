@@ -15,20 +15,30 @@ enum playerPositions: String {
 }
 
 struct Athlete {
-    var number: Int
-    var name: String
-    var isRighty: Bool
-    var isGoalie: Bool
-    var position: playerPositions
-    var hockeySticks: [HockeyStick]
+    var number: Int                 = 0
+    var name: String                = "UNKNOWN"
+    var isRighty: Bool              = true
+    var position: playerPositions   = .forward
     
     // Helpers
-    var isLeft: Bool {
+    var isLefty: Bool {
         return !self.isRighty
     }
     
     var isSkater: Bool {
         return !self.isGoalie
     }
-    //var hockeySticks: [HockeyStick]
+    
+    var isGoalie: Bool {
+        return self.position == .goalie
+    }
+    
+    func getHockeySticks(hockeyStickList: [HockeyStick]) -> [HockeyStick] {
+        return hockeyStickList.filter {
+            if let owner = $0.owner {
+                return self.number == owner.number
+            }
+            return false
+        }
+    }
 }
