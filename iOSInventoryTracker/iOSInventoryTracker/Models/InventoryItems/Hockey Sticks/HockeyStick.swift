@@ -12,7 +12,7 @@ enum HockeyStickError: Error {
     case nameAndNumTooLong
 }
 
-class HockeyStick: InventoryItem {
+class HockeyStick: InventoryItem, Identifiable {
     enum GripType: String {
         case none = "No Grip"
         case extra = "Extra Grip"
@@ -34,6 +34,8 @@ class HockeyStick: InventoryItem {
         case right = "Right"
     }
     
+    private static var idCtr = 0;
+    
     var nameAndNumOnStick: String   // Shouldnt be more than 14 characters long.
     var brand: String
     var model: String
@@ -42,6 +44,7 @@ class HockeyStick: InventoryItem {
     var grip: GripType
     var condition: StickCondition
     var owner: Athlete?
+    private(set) var id: Int
     
     init(nameAndNumOnStick: String, brand: String, model: String, curve: CurveType, flex: String, grip: GripType, condition: StickCondition, owner: Athlete?) {
         self.nameAndNumOnStick = "UNNAMED 0"
@@ -52,6 +55,8 @@ class HockeyStick: InventoryItem {
         self.grip = grip
         self.condition = condition
         self.owner = owner
+        self.id = HockeyStick.idCtr
+        HockeyStick.idCtr += 1
     }
     
     init() {
@@ -63,5 +68,7 @@ class HockeyStick: InventoryItem {
         self.grip = .none
         self.condition = .notBroken
         self.owner = nil
+        self.id = HockeyStick.idCtr
+        HockeyStick.idCtr += 1
     }
 }

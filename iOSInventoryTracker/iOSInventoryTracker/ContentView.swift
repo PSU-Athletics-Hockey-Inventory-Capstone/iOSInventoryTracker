@@ -12,7 +12,12 @@ struct ContentView: View {
     @EnvironmentObject private var inventoryData: InventoryData
     
     var body: some View {
-        Text("Hello World")
+        TabView {
+            AthleteList(inventoryData: inventoryData)
+            .tabItem {
+                Text("Athletes")
+            }.tag(0)
+        }
     }
 }
 
